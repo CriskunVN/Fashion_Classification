@@ -6,7 +6,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 
 # Load the trained CNN model
-MODEL_PATH = 'fashion_cnn_trained.h5'
+MODEL_PATH = 'fashion-mnist-classification/fashion_cnn_trained.h5'
 model = load_model(MODEL_PATH)
 
 # Class names for the Fashion MNIST dataset
