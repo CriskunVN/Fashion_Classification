@@ -13,10 +13,26 @@ Dự án AI phân loại quần áo thời trang sử dụng CNN và dataset Fas
 7. Lưu mô hình
 8. So sánh với 2 thuật toán khác (KNN và Logistic Regression): huấn luyện, đánh giá accuracy, vẽ biểu đồ so sánh
 
-## Lưu ý
+## Cài đặt
 
-- Không commit thư mục `venv/` lên Git. Nó đã được thêm vào `.gitignore`.
-- Dataset CSV có thể lớn, cân nhắc không commit nếu repository cần nhẹ.
+1. Tạo virtual environment (nếu chưa có):
+
+```bash
+python -m venv venv
+```
+
+2. Kích hoạt virtual environment:
+
+```bash
+source venv/bin/activate  # Trên Linux/Mac
+# hoặc venv\Scripts\activate trên Windows
+```
+
+3. Cài đặt dependencies:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Huấn luyện mô hình
 
