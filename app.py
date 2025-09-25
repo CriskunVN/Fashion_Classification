@@ -124,7 +124,7 @@ if uploaded_file is not None:
     # Display the preprocessed image
     with col2:
         st.write("### ⚡ Hình ảnh Đã xử lý:")
-        method_text = "Nâng cao (Phong cách FMNIST)" if use_advanced else "Đơn giản"
+        method_text = "Nâng cao" if use_advanced else "Đơn giản"
         st.image(processed_image, caption=f"Hình ảnh đã xử lý - {method_text} (28x28)", use_container_width=True)
 
     # Make prediction
